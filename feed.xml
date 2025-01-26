@@ -2,6 +2,8 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+{% assign excerpt_length = site.excerpt_length | default: 50 %}
+
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     {% if site.title %}
@@ -12,7 +14,8 @@ layout: null
     {% endif %}
     <link>{{ '/' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% assign excerpt_length = site.excerpt_length | default: 50 %}
+
+    <!-- Articles (Posts) -->
     {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title | strip_html | xml_escape }}</title>
@@ -25,5 +28,20 @@ layout: null
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
     {% endfor %}
+
+    <!-- Projets -->
+    {% for project in site.projects limit:20 %}
+      <item>
+        <title>{{ project.title | strip_html | xml_escape }}</title>
+        <description>
+          {% if project.subtitle %}{{ project.subtitle | strip_html | xml_escape }} - {% endif %}
+          {{ project.content | strip_html | xml_escape | truncatewords: excerpt_length }}
+        </description>
+        <pubDate>{{ project.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ project.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ project.url | absolute_url }}</guid>
+      </item>
+    {% endfor %}
   </channel>
 </rss>
+
