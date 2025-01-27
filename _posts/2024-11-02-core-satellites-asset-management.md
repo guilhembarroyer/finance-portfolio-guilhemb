@@ -1,3 +1,4 @@
+---
 layout: post
 title: Core-Satellites Asset Management VBA Model
 subtitle: Asset allocation strategy combining a core portfolio and selected satellite securities
