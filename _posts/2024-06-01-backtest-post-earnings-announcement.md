@@ -74,4 +74,4 @@ Explore the full source code on GitHub:
 - **Customizable**: Modify parameters to explore various strategies and refine trading models.
 
 Example CSV Output:
-![Exemples de résultats CSV](/assets/img/ex_results.png)
+![Exemples de résultats CSV](/assets/img/ex_result.png)
