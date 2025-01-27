@@ -57,5 +57,5 @@ Explore the full source code on GitHub:
 
 ## **Project Structure**
 
-![Structure du dossier](/assets/img/structure_index.png)
+![Structure du dossier](assets/img/structure_index.png)
 
