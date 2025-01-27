@@ -51,7 +51,7 @@ I continually work on expanding my skill set through both academic assignments a
 ### Explore My Work
 
 You can explore my portfolio for detailed examples of my projects, including Python-based financial models, algorithmic trading strategies, and data-driven tools for market analysis:  
-[https://guilhembarroyer.github.io/portfolio_finance_guilhemb/](https://guilhembarroyer.github.io/portfolio_finance_guilhemb/)
+[https://guilhembarroyer.github.io/portfolio_finance_guilhemb/](https://guilhembarroyer.github.io/finance-portfolio-guilhemb/)
 
 ---
 
