@@ -1,0 +1,61 @@
+---
+layout: post
+title: Financial Index Tracker
+subtitle: Interactive financial indices creation and analysis tool with Streamlit
+gh-repo: guilhembarroyer/financial-index-tracker
+gh-badge: [star, fork, follow]
+tags: [finance, Streamlit, data-analysis, python]
+comments: true
+mathjax: false
+author: Guilhem Barroyer
+---
+
+{: .box-success}
+**Financial Index Tracker** is an interactive application built with Streamlit, allowing users to configure, create, and analyze financial indices tailored to their specific criteria. Designed for flexibility, the app supports customization of country, sector, investment style, and other key financial parameters.
+
+---
+
+## **Key Features**
+
+### 1. **Index Configuration**
+{: .box-note}
+- Define the stock universe based on countries, sectors (BICS1-4), or existing indices.
+- Customize index size (e.g., less than 15 stocks to optimize loading times).
+- Set specific constraints like dividend yields or qualitative characteristics.
+- Choose the type of index:
+  - Market Cap Index
+  - Growth Index (PB/PE)
+  - Value Index (PB/PE)
+  - Dividend Yield Index
+- Enable or disable annual rebalancing.
+- Define the currency and weighting type (equal-weighted or market-cap-weighted).
+
+### 2. **Dynamic Index Creation**
+{: .box-note}
+- Validate configurations to ensure data consistency.
+- Generate indices dynamically using historical prices and qualitative data.
+
+### 3. **Interactive Visualization**
+{: .box-note}
+- Explore sector, country, and investment style allocations through interactive charts.
+- Compare the custom index against benchmarks.
+- Track index evolution over time.
+- Analyze stock inflows and outflows during rebalancing.
+- Export results easily for further analysis or reporting.
+
+---
+
+## **Project Structure**
+```plaintext
+financial-index-tracker/
+├── README.md               # Project documentation
+├── InputFiles/             # Folder for user input files (e.g., data.xlsx)
+├── Source/                 # Main source code
+│   ├── __init__.py         # Python module initialization
+│   ├── data_preparation.py # Data cleaning and preparation
+│   ├── engine_controller.py# Business logic and index calculations
+│   ├── index_controller.py # Index configuration and management
+│   ├── interface_utilisateur.py # Streamlit interface
+├── pyproject.toml          # Python project configuration
+└── venv/                   # Virtual environment
+
