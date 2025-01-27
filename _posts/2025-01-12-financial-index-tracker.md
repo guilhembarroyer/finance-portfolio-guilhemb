@@ -56,16 +56,6 @@ Explore the full source code on GitHub:
 ---
 
 ## **Project Structure**
-```plaintext
-financial-index-tracker/
-├── README.md               # Project documentation
-├── InputFiles/             # Folder for user input files (e.g., data.xlsx)
-├── Source/                 # Main source code
-│   ├── __init__.py         # Python module initialization
-│   ├── data_preparation.py # Data cleaning and preparation
-│   ├── engine_controller.py# Business logic and index calculations
-│   ├── index_controller.py # Index configuration and management
-│   ├── interface_utilisateur.py # Streamlit interface
-├── pyproject.toml          # Python project configuration
-└── venv/                   # Virtual environment
+
+![Structure du dossier](/assets/img/structure_index.png)
 
