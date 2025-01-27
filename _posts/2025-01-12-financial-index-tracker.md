@@ -4,7 +4,7 @@ title: Financial Index Tracker
 subtitle: Interactive financial indices creation and analysis tool with Streamlit
 gh-repo: guilhembarroyer/financial-index-tracker
 gh-badge: [star, fork, follow]
-cover-img: /assets/img/resultats_graphiques3.png
+#cover-img: /assets/img/resultats_graphiques3.png
 thumbnail-img: /assets/img/resultats_graphiques3.png
 #tags: [finance, Streamlit, data-analysis, python]
 comments: true
