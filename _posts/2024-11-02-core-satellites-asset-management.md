@@ -1,11 +1,10 @@
-<img width="487" alt="resultats_core" src="https://github.com/user-attachments/assets/e1af0278-c152-45f0-bf8a-ba3e49cee095" />---
 layout: post
 title: Core-Satellites Asset Management VBA Model
 subtitle: Asset allocation strategy combining a core portfolio and selected satellite securities
 gh-repo: guilhembarroyer/Core-Satellites-VBA
 gh-badge: [star, fork, follow]
 #cover-img: /assets/img/core_satellites_cover.png
-thumbnail-img: /assets/img/core_satellite.jpg
+thumbnail-img: /assets/img/core_satellite.png
 tags: [finance, portfolio-management, vba, excel]
 comments: true
 mathjax: false
