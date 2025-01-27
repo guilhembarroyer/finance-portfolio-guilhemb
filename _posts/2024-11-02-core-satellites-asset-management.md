@@ -94,7 +94,7 @@ Explore the full source code and Excel file on GitHub:
 - **Result Visualization**: Export allocation results and performance metrics for further analysis.
 
 Example Table Output:
-![Results Table](/assets/img/resultats_core.png)
+![Results Table](../assets/img/resultats_core.png)
 
 ---
 
