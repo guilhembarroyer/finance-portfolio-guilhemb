@@ -30,13 +30,13 @@ Here are some highlights of my work:
 - **Algorithmic Trading Strategies**: Implementing backtesting frameworks for trading algorithms based on statistical and machine learning models.  
 - **Asset Management Models**: Creating simulations to evaluate portfolio risk and perfomance under various market conditions.  
 
-These projects are showcased on my [GitHub portfolio](https://guilhembarroyer.github.io/portfolio_finance_guilhemb/), where I share code, insights, and technical walkthroughs.
+These projects are showcased on my [GitHub portfolio](https://github.com/guilhembarroyer), where I share code, insights, and technical walkthroughs.
 
 ---
 
 ### Technical Skills
 
-- **Languages**: French (Native), English (Professional proficiency – C1, TOEFL: 109/120)  
+- **Languages**: French (Native), English (Professional proficiency – C1)  
 - **Programming & Tools**:  
   - **Python**: Data analysis, financial modeling, machine learning.  
   - **R**: Statistical modeling and econometric analysis.  
